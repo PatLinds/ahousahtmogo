@@ -39,7 +39,7 @@ main .table {
   width: 868px;
   height: 868px;
   border-radius: 14px;
-  transition: 2s;
+  transition: 3s;
   cursor: pointer;
 }
 main .table.hide {
@@ -264,7 +264,7 @@ main .table.rotation {
 }
 .frame > div.corner div span {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
 }
 .frame > div.corner.tl {
   border-radius: 8px 1px 4px 1px;
