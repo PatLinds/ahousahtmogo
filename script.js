@@ -2,7 +2,7 @@ var Tiles = { "List" : [
   {"label":"strand", "price":"£220", "icon":"", "color":"red", "order": "2", "pos":"top"},
   {"label":"chance", "price":"", "icon":"❓", "color":"none", "order": "3", "pos":"top"},
   {"label":"fleet street", "price":"£220", "icon":"", "color":"red", "order": "4", "pos":"top"},
-  {"label":"trafalgar square", "price":"£240", "icon":"", "color":"none", "order": "5", "pos":"top"},
+  {"label":"trafalgar square", "price":"£240", "icon":"", "color":"red", "order": "5", "pos":"top"},
   {"label":"fenchurch st. station", "price":"£200", "icon":"🚂", "color":"none", "order": "6", "pos":"top"},
   {"label":"leicester square", "price":"£260", "icon":"", "color":"yellow", "order": "7", "pos":"top"},
   {"label":"ceventry street", "price":"£200", "icon":"", "color":"yellow", "order": "8", "pos":"top"},
@@ -63,3 +63,6 @@ $(".table").click(function(){
       },2000);
   }
 });
+
+//
+//
