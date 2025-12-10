@@ -4,36 +4,55 @@
     <title>ʕaaḥuusʔatḥ MOGO</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
-    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Eater&family=Henny+Penny&family=Nosifer&family=Rubik+Distressed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <link rel="javascript" href="script.js"/>
   </head>
   <body>
-
-<main>
-  <div class="table stop">
-    <div class="frame">
-      <div class="corner tl" style="--order:1">
-        <div>free parking <span>🅿️</span> in načaaks</div>
-      </div>
-      <div class="corner tr" style="--order:11">
-        <div>čaʔaałči <span>👮</span> maƛił</div>
-      </div>
-      <div class="corner bl" style="--order:31">
-        <div><span>🗝</span> maƛiłquk</div>
-      </div>
-      <div class="corner br" style="--order:41">
-        <div><em>hiišumyuup <br/> ḥayuuq taana</em>  <span>↖️</span></div>
-      </div>
-      <div class="center" style="--order:13">
-        <div class="logo">monopoly</div>
-        <div class="cards community">community chest</div>
-        <div class="cards chance">chance</div>
-      </div>
+    <main>
+      <div class="table stop">
+        <div class="frame">
+          <div class="corner tl" style="--order:1">
+            <div>free parking <span>🅿️</span> in načaaks</div>
+          </div>
+          <div class="corner tr" style="--order:11">
+            <div>čaʔaałči <span>👮</span> maƛił</div>
+          </div>
+          <div class="corner bl" style="--order:31">
+            <div><span>🗝</span> maƛiłquk</div>
+          </div>
+          <div class="corner br" style="--order:41">
+            <div><em>hiišumyuup <br/> ḥayuuq taana</em>  <span>↖️</span></div>
+          </div>
+          <div class="center" style="--order:13">
+          <div class="logo">nup̓itcaʔiƛ</div>
+            <div class="cards community">hinasḥuł maʔas</div>
+            <div class="cards chance">čaamałsaaqapi</div>
+          </div>
+        </div>
+      </div>  
+    <h2>Roll the Dice!</h2>
+    <div id="dice-container">
+        <div class="dice" id="dice1">1</div>
+        <div class="dice" id="dice2">1</div>
     </div>
-  </div>
+    <button onclick="rollDice()">Roll Dice</button>
+    <script>
+        function rollDice() {
+            const dice1Element = document.getElementById('dice1');
+            const dice2Element = document.getElementById('dice2');
+
+            const roll1 = Math.floor(Math.random() * 6) + 1;
+            const roll2 = Math.floor(Math.random() * 6) + 1;
+
+            dice1Element.textContent = roll1;
+            dice2Element.textContent = roll2;
+        }
+    </script>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/script.js"></script>
+
   </body>
+
 </html>
