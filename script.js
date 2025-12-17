@@ -1,12 +1,12 @@
 var Tiles = { "List" : [
   {"label":"Main Dock", "price":"$220", "icon":"", "color":"red", "order": "2", "pos":"top"},
   {"label":"čaamałsaaqapi", "price":"", "icon":"❓", "color":"none", "order": "3", "pos":"top"},
-  {"label":"Hydro Dock", "price":"$220", "icon":"", "color":"red", "order": "4", "pos":"top"},
-  {"label":"Mattie's Dock", "price":"$240", "icon":"", "color":"red", "order": "5", "pos":"top"},
+  {"label":"c̓iisapi waap", "price":"$220", "icon":"", "color":"red", "order": "4", "pos":"top"},
+  {"label":"kiiyawishƛa waap", "price":"$240", "icon":"", "color":"red", "order": "5", "pos":"top"},
   {"label":"Webster", "price":"$200", "icon":"🚂", "color":"none", "order": "6", "pos":"top"},
   {"label":"t̓iickin maḥtii", "price":"$260", "icon":"", "color":"yellow", "order": "7", "pos":"top"},
   {"label":"new gym", "price":"$200", "icon":"", "color":"yellow", "order": "8", "pos":"top"},
-  {"label":"water<br>works", "price":"$150", "icon":"🚰", "color":"none", "order": "9", "pos":"top"},
+  {"label":"č̓aʔak<br>maḥsa", "price":"$150", "icon":"🚰", "color":"none", "order": "9", "pos":"top"},
   {"label":"skatepark", "price":"$280", "icon":"", "color":"yellow", "order": "10", "pos":"top"},
   {"label":"k’iihxnit", "price":"$200", "icon":"", "color":"orange", "order": "12", "pos":"left"},
   {"label":"ƛ̓aƛ̓ahinkʷuuʔis", "price":"$200", "icon":"", "color":"orange", "order": "15", "pos":"left"},
@@ -32,9 +32,9 @@ var Tiles = { "List" : [
   {"label":"č̓aʔak maḥtii", "price":"$100", "icon":"", "color":"sky", "order": "35", "pos":"bottom"},
   {"label":"Joseph", "price":"$200", "icon":"🚂", "color":"none", "order": "36", "pos":"bottom"},
   {"label":"ʔuuštaq<br/>naḥii", "price":"$200", "icon":"🔸", "color":"none", "order": "37", "pos":"bottom"},
-  {"label":"RCMP", "price":"£60", "icon":"", "color":"brown", "order": "38", "pos":"bottom"},
+  {"label":"maƛił", "price":"£60", "icon":"", "color":"brown", "order": "38", "pos":"bottom"},
   {"label":"hinasḥuł maʔas", "price":"", "icon":"💰", "color":"none", "order": "39", "pos":"bottom"},
-  {"label":"firehall", "price":"$60", "icon":"", "color":"brown", "order": "40", "pos":"bottom"}
+  {"label":"ʔink maḥsa", "price":"$60", "icon":"", "color":"brown", "order": "40", "pos":"bottom"}
 ]};
 
 var tiles = "";
